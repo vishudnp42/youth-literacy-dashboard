@@ -317,6 +317,8 @@ with tab3:
     )
     st.plotly_chart(fig_bar, use_container_width=True)
 
+# Tab 4 - Regional Analysis
+
 # ════════════════════════════════════════════════════════════════
 # TAB 4: REGIONAL ANALYSIS
 # ════════════════════════════════════════════════════════════════
