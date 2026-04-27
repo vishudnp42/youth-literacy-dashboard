@@ -18,3 +18,6 @@ for youth literacy (ages 15–24) across 217 economies from 1970 to 2022.
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+## Deployment
+Deployed on Streamlit Community Cloud: [App URL here]
