@@ -1,3 +1,4 @@
+# Python dependencies for Youth Literacy Dashboard
 streamlit
 pandas
 plotly
