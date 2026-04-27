@@ -60,6 +60,8 @@ def load_data():
     df_long['GPI'] = df_long['GPI'].round(4)
     return df_long
 
+# Separate country-level data from regional aggregates
+
 # World Bank regional aggregate codes (not individual countries)
 REGION_CODES = {
     'AFE', 'AFW', 'ARB', 'CSS', 'CEB', 'EAR', 'EAS', 'ECA', 'ECS',
