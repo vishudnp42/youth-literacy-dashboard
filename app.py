@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
+
 # ─── Page Config ────────────────────────────────────────────────
 st.set_page_config(
     page_title="Youth Literacy Gender Parity Dashboard",
@@ -37,6 +38,8 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+# Data loading and preprocessing
 
 # ─── Load & Process Data ─────────────────────────────────────────
 @st.cache_data
