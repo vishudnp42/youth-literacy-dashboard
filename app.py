@@ -271,6 +271,8 @@ with tab2:
             pivot = df_trend.pivot_table(index='Country', columns='Year', values='GPI').round(3)
             st.dataframe(pivot, use_container_width=True)
 
+# Tab 3 - Country Rankings
+
 # ════════════════════════════════════════════════════════════════
 # TAB 3: COUNTRY RANKINGS
 # ════════════════════════════════════════════════════════════════
