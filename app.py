@@ -91,6 +91,8 @@ df_countries = df_all[~df_all['Code'].isin(REGION_CODES)].copy()
 df_regions   = df_all[df_all['Code'].isin(MAIN_REGIONS.keys())].copy()
 df_regions['Region'] = df_regions['Code'].map(MAIN_REGIONS)
 
+# Sidebar controls
+
 # ─── Sidebar ────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("## 🔧 Dashboard Controls")
