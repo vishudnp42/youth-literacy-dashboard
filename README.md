@@ -20,4 +20,4 @@ streamlit run app.py
 ```
 
 ## Deployment
-Deployed on Streamlit Community Cloud: [App URL here]
+Deployed on Streamlit Community Cloud: https://youth-literacy-dashboard-3r276rpqzdyrbojhkcchnj.streamlit.app/
